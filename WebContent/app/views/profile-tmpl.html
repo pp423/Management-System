@@ -1,0 +1,309 @@
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 updates">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1"> Change Password </a>
+                    </div>
+                    <div id="collapseOne1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="oldpwd">Old Password :</label>
+                                    <input type="password" class="form-control" id="oldpwd" placeholder="Enter old password">
+                                </div>
+                                <div class="form-group">
+                                    <label for="newpwd">New Password :</label>
+                                    <input type="password" class="form-control" pattern=".{6,}" id="newpwd" placeholder="Enter new password" title="Six or more characters">
+                                </div>
+                                <div class="form-group">
+                                    <label for="oldpwdrep">Repeat New Password :</label>
+                                    <input type="password" class="form-control" id="oldpwdrep" placeholder="Enter new password">
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne2"> Toggle Auto-Assign </a>
+                    </div>
+                    <div id="collapseOne2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        Auto-Assign Tables
+                                    </label>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne3"> Update Restaurant Open Days </a>
+                    </div>
+                    <div id="collapseOne3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="container">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <label>
+                                                    <input type="checkbox" value="">
+                                                    Monday
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label>
+                                                    <input type="checkbox" value="">
+                                                    Tuesday
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label>
+                                                    <input type="checkbox" value="">
+                                                    Wednesday
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label>
+                                                    <input type="checkbox" value="">
+                                                    Sunday
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <label>
+                                                    <input type="checkbox" value="">
+                                                    Thursday
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label>
+                                                    <input type="checkbox" value="">
+                                                    Friday
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label>
+                                                    <input type="checkbox" value="">
+                                                    Saturday
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label>
+                                                    <input type="checkbox" value="">
+                                                    Holidays
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary btn-sm">Update</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne4"> Update Restaurant Timings </a>
+                    </div>
+                    <div id="collapseOne4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="stime">New Opening Time: </label>
+                                    <input type="time" id="stime" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="etime">New Closing Time: </label>
+                                    <input type="time" id="etime" class="form-control" required>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne5"> Update Profile </a>
+                    </div>
+                    <div id="collapseOne5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="email">New Email Id: </label>
+                                    <input type="email" id="email" class="form-control"
+                                           placeholder="example@domain.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">New Phone Number: </label>
+                                    <input type="tel" id="phone" class="form-control" placeholder="Enter new name" required>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Update</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 staff">
+                <h6>Staff Members</h6>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div><img src="img/noimg.jpg" alt="" class="img-thumbnail"></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="imginfo img-rounded">
+                                            <p>Name: Bosco</p>
+                                            <p>Age: 29</p>
+                                            <p>Post: Head Chef</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div><img src="img/noimg.jpg" alt="..." class="img-thumbnail"></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="imginfo img-rounded">
+                                            <p>Name: Bosco</p>
+                                            <p>Age: 29</p>
+                                            <p>Post: Head Chef</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div><img src="img/noimg.jpg" alt="..." class="img-thumbnail"></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="imginfo img-rounded">
+                                            <p>Name: Bosco</p>
+                                            <p>Age: 29</p>
+                                            <p>Post: Head Chef</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div><img src="img/noimg.jpg" alt="..." class="img-thumbnail"></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="imginfo img-rounded">
+                                            <p>Name: Bosco</p>
+                                            <p>Age: 29</p>
+                                            <p>Post: Head Chef</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div><img src="img/noimg.jpg" alt="..." class="img-thumbnail"></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="imginfo img-rounded">
+                                            <p>Name: Bosco</p>
+                                            <p>Age: 29</p>
+                                            <p>Post: Head Chef</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div><img src="img/noimg.jpg" alt="..." class="img-thumbnail"></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="imginfo img-rounded">
+                                            <p>Name: Bosco</p>
+                                            <p>Age: 29</p>
+                                            <p>Post: Head Chef</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div><img src="img/noimg.jpg" alt="..." class="img-thumbnail"></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="imginfo img-rounded">
+                                            <p>Name: Bosco</p>
+                                            <p>Age: 29</p>
+                                            <p>Post: Head Chef</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div><img src="img/noimg.jpg" alt="..." class="img-thumbnail"></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="imginfo img-rounded">
+                                            <p>Name: Bosco</p>
+                                            <p>Age: 29</p>
+                                            <p>Post: Head Chef</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div><img src="img/noimg.jpg" alt="..." class="img-thumbnail"></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="imginfo img-rounded">
+                                            <p>Name: Bosco</p>
+                                            <p>Age: 29</p>
+                                            <p>Post: Head Chef</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<div>
+	<h6>Reservation List</h6>
+
+	<div class="input-group">
+		<input type="text" class="form-control"
+			placeholder="Search Reservation" id="search"> <span
+			class="input-group-btn"><button class="btn btn-primary"
+				type="submit">
+				<i class="fa fa-search"></i>
+			</button></span>
+	</div>
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>CNF #</th>
+				<th>Name</th>
+				<th>Date & Time</th>
+				<th>Party Size</th>
+				<!-- <th>Action</th> -->
+			</tr>
+		</thead>
+		<tbody>
+			<tr data-ng-repeat="e in revdetailsVm.entries.payload">
+				<td>{{e.reserveId}}</td>
+				<td>{{e.name}}</td>
+				<td>{{e.date}}~{{e.time}}</td>
+				<td>{{e.size}}</td>
+				<!-- <td><a data-ng-href="#/users/{{p.id}}"><span
+						class="glyphicon glyphicon-user"></span></a></td> -->
+			</tr>
+		</tbody>
+	</table>
+</div>

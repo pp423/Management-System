@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html data-ng-app="foodspot">
+<head>
+    <meta charset="utf-8"/>
+    <title>Food Spot Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header class="navbar navbar-inverse">
+    <div class="container">
+        <a class="navbar-brand" data-ui-sref="users" id="logo">Food Spot</a>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a data-ui-sref="users">Reservation</a></li>
+                <li><a data-ui-sref="owner">Owner</a></li>
+                <!--<li><a data-ui-sref="about">About</a></li>-->
+            </ul>
+        </div>
+    </div>
+</header>
+<section data-ui-view>
+
+</section>
+<footer>
+    <div class="container last">
+        <div class="row">
+            <div class="col-md-4 ffirst">
+                <h5 class="text-primary">Payment Options: </h5>
+                <i class="fa fa-usd fa-lg"></i>
+                <i class="fa fa-cc-amex fa-lg"></i>
+                <i class="fa fa-cc-visa fa-lg"></i>
+                <i class="fa fa-cc-discover fa-lg"></i>
+                <i class="fa fa-cc-mastercard fa-lg"></i>
+            </div>
+
+            <div class="col-md-4 fmid">
+                &copy; 2015 FoodSpotGroup. All Rights Reserved.
+            </div>
+
+            <div class="col-md-4 flast">
+                <h5 class="text-primary">Available Services:</h5>
+                <i class="fa fa-cutlery fa-lg"></i>
+                <i class="fa fa-glass fa-lg"></i>
+                <i class="fa fa-users fa-lg"></i>
+                <i class="fa fa-music fa-lg"></i>
+                <i class="fa fa-birthday-cake fa-lg"></i>
+                <i class="fa fa-taxi fa-lg"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="vendor/js/angular.js"></script>
+<script src="vendor/js/angular-ui-router.js"></script>
+<script src="vendor/js/ui-bootstrap-tpls-0.13.4.js"></script>
+<!--<script src ="vendor/js/angular-route.js"></script>-->
+<script src="app/app.js"></script>
+<script src="app/services/dataService.js"></script>
+<script src="app/controllers/reservation-controller.js"></script>
+<script src="app/controllers/reservationdetails-controller.js"></script>
+</body>
+</html>

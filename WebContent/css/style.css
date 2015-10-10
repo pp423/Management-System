@@ -1,0 +1,72 @@
+.social .container {
+    width : 100%;
+}
+
+html{
+    box-sizing: inherit;
+    height: 100%;
+}
+
+#logo {
+    font-family: 'Tangerine', serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+body{
+    background-image: radial-gradient(circle at top right,#b0e7ab, white);
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 9rem;
+    width: 100%;
+}
+
+footer h5{
+    font-family: 'Tangerine', serif;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.last{
+    background: #0a0502;
+    width: 100%;
+    height:70px;
+    bottom:0;
+    position: absolute;
+}
+
+.ffirst{
+    text-align: left;
+}
+
+.flast{
+    text-align: right;
+}
+
+.fmid{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+footer .fa{
+    color: #d4e7d5;
+}
+
+.basictmpl {
+    margin: 80px auto 0px;
+    width: 80%;
+}
+
+.formright{
+    padding-right: 0px;
+}
+
+input {
+    height: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}

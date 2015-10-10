@@ -1,0 +1,214 @@
+<div>
+    <h6>Seating Area</h6>
+    <div class="container">
+        <div class="col-xs-12 col-sm-6">
+            <table class="table table-condensed table-striped">
+                <thead>
+                <tr>
+                    <th>Table #</th>
+                    <th>Size</th>
+                    <th>Status</th>
+                    <th>Since</th>
+                    <th>CNF#</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>Occupied</td>
+                    <td>2:00PM</td>
+                    <td><button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailModal">FS745P</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>Available</td>
+                    <td>-</td>
+                    <td><button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailModal">FS745P</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>Occupied</td>
+                    <td>2:00PM</td>
+                    <td><button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailModal">FS745P</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>Available</td>
+                    <td>-</td>
+                    <td><button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailModal">FS745P</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>Occupied</td>
+                    <td>2:00PM</td>
+                    <td><button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailModal">FS745P</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>Occupied</td>
+                    <td>2:00PM</td>
+                    <td><button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailModal">FS745P</button></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>Available</td>
+                    <td>-</td>
+                    <td><button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailModal">FS745P</button></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>Occupied</td>
+                    <td>2:00PM</td>
+                    <td><button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailModal">FS745P</button></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>2</td>
+                    <td>Occupied</td>
+                    <td>2:00PM</td>
+                    <td><button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailModal">FS745P</button></td>
+                </tr>
+                </tbody>
+                <div class="modal fade" id="detailModal" class="" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <div class="signup-popup text-center">
+                                    <h4>Reservation Details</h4>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="dname">Name: </label>
+                                    <span><input type="text" id="dname" class="form-control" value="Piyush Pardeshi" disabled></span>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="ddate">Date: </label>
+                                            <span><input type="text" id="ddate" class="form-control" value="07/20/2015" disabled></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="dtime">Time: </label>
+                                            <span><input type="text" id="dtime" class="form-control" value="8:30 PM" disabled></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="dsize">Party Size: </label>
+                                            <span><input type="text" id="dsize" class="form-control" value="4" disabled></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="dnum">Phone: </label>
+                                            <span><input type="text" id="dnum" class="form-control" value="9758742222" disabled></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Change Reservation Table
+                                            <input type="text" placeholder="Enter new table number" disabled>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" >Change</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </table>
+        </div>
+        <div class="col-sm-6">
+            <div class="container">
+                <div class="col-md-4">
+                    <div class="seats img-circle">
+                        <p>Table # 1</p>
+                        <p>Occupied</p>
+                        <p>
+                            <button type="button" class="btn btn-link">FS745P</button>
+                        </p>
+                    </div>
+                    <div class="seats img-rounded">
+                        <p>Table # 4</p>
+                        <p>Available</p>
+                        <p>
+                            <button type="button" class="btn btn-link"></button>
+                        </p>
+                    </div>
+                    <div class="seats img-circle">
+                        <p>Table # 7</p>
+                        <p>Available</p>
+                        <p>
+                            <button type="button" class="btn btn-link"></button>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="seats img-rounded">
+                        <p>Table # 2</p>
+                        <p>Available</p>
+                        <p>
+                            <button type="button" class="btn btn-link"></button>
+                        </p>
+                    </div>
+                    <div class="seats img-rounded">
+                        <p>Table # 5</p>
+                        <p>Occupied</p>
+                        <p>
+                            <button type="button" class="btn btn-link">FS745P</button>
+                        </p>
+                    </div>
+                    <div class="seats img-rounded">
+                        <p>Table # 8</p>
+                        <p>Occupied</p>
+                        <p>
+                            <button type="button" class="btn btn-link">FS745P</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="seats img-circle">
+                        <p>Table # 3</p>
+                        <p>Occupied</p>
+                        <p>
+                            <button type="button" class="btn btn-link">FS745P</button>
+                        </p>
+                    </div>
+                    <div class="seats img-rounded">
+                        <p>Table # 6</p>
+                        <p>Occupied</p>
+                        <p>
+                            <button type="button" class="btn btn-link">FS745P</button>
+                        </p>
+                    </div>
+                    <div class="seats img-circle">
+                        <p>Table # 9</p>
+                        <p>Occupied</p>
+                        <p>
+                            <button type="button" class="btn btn-link">FS745P</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
